@@ -33,4 +33,7 @@
   <ItemGroup>
     <Text Include="README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
 </Project>
