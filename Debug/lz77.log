@@ -1,3 +1,5 @@
 ﻿  lz77.cpp
   lz77.vcxproj -> C:\Users\misrap\Source\Repos\lz77\Debug\lz77.exe
   lz77.vcxproj -> C:\Users\misrap\Source\Repos\lz77\Debug\lz77.pdb (Full PDB)
+c:\users\misrap\source\repos\lz77\lz77.cpp(62): warning C26491: Don't use static_cast downcasts. Use dynamic_cast instead. (type.2: http://go.microsoft.com/fwlink/p/?LinkID=620418)
+c:\users\misrap\source\repos\lz77\aho_corasick.hpp(256): warning C26495: Variable 'aho_corasick::interval::=' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)

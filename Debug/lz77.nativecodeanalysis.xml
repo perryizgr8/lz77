@@ -1,2 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<DEFECTS></DEFECTS>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\misrap\source\repos\lz77\</FILEPATH>
+      <FILENAME>aho_corasick.hpp</FILENAME>
+      <LINE>529</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>'char' passed as _Param_(1) when 'unsigned char' is required in call to 'isalpha'.</DESCRIPTION>
+    <FUNCTION>aho_corasick::basic_trie&lt;char&gt;::remove_partial_matches</FUNCTION>
+    <DECORATED>?remove_partial_matches@?$basic_trie@D@aho_corasick@@ABEXAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAV?$vector@V?$emit@D@aho_corasick@@V?$allocator@V?$emit@D@aho_corasick@@@std@@@4@@Z</DECORATED>
+    <FUNCLINE>525</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\misrap\source\repos\lz77\</FILEPATH>
+      <FILENAME>aho_corasick.hpp</FILENAME>
+      <LINE>530</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>'char' passed as _Param_(1) when 'unsigned char' is required in call to 'isalpha'.</DESCRIPTION>
+    <FUNCTION>aho_corasick::basic_trie&lt;char&gt;::remove_partial_matches</FUNCTION>
+    <DECORATED>?remove_partial_matches@?$basic_trie@D@aho_corasick@@ABEXAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAV?$vector@V?$emit@D@aho_corasick@@V?$allocator@V?$emit@D@aho_corasick@@@std@@@4@@Z</DECORATED>
+    <FUNCLINE>525</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\misrap\source\repos\lz77\</FILEPATH>
+      <FILENAME>lz77.cpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26491</DEFECTCODE>
+    <DESCRIPTION>Don't use static_cast downcasts. Use dynamic_cast instead. (type.2: http://go.microsoft.com/fwlink/p/?LinkID=620418)</DESCRIPTION>
+    <FUNCTION>aho_corasick::emit&lt;char&gt;::=</FUNCTION>
+    <DECORATED>??4?$emit@D@aho_corasick@@QAEAAV01@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>256</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\misrap\source\repos\lz77\</FILEPATH>
+      <FILENAME>aho_corasick.hpp</FILENAME>
+      <LINE>256</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'aho_corasick::interval::=' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)</DESCRIPTION>
+    <FUNCTION>aho_corasick::emit&lt;char&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$emit@D@aho_corasick@@QAE@ABV01@@Z</DECORATED>
+    <FUNCLINE>256</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\misrap\source\repos\lz77\</FILEPATH>
+      <FILENAME>lz77.cpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26491</DEFECTCODE>
+    <DESCRIPTION>Don't use static_cast downcasts. Use dynamic_cast instead. (type.2: http://go.microsoft.com/fwlink/p/?LinkID=620418)</DESCRIPTION>
+    <FUNCTION>aho_corasick::emit&lt;char&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$emit@D@aho_corasick@@QAE@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>256</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\misrap\source\repos\lz77\</FILEPATH>
+      <FILENAME>aho_corasick.hpp</FILENAME>
+      <LINE>256</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'aho_corasick::interval::=' is uninitialized. Always initialize a member variable. (type.6: http://go.microsoft.com/fwlink/p/?LinkID=620422)</DESCRIPTION>
+    <FUNCTION>aho_corasick::emit&lt;char&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$emit@D@aho_corasick@@QAE@$$QAV01@@Z</DECORATED>
+    <FUNCLINE>256</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
